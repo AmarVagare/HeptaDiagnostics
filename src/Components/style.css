@@ -4,6 +4,7 @@ body {
   background-color: #f3f3f3;
 }
 /* Navbar */
+
 .whatsapp_div {
   position: fixed;
   right: 24px;
@@ -54,6 +55,7 @@ body {
   font-size: 50px;
   filter: drop-shadow(0px 0px 20px green);
 }
+
 .logo-img {
   width: 50px;
   height: 45px;
@@ -81,12 +83,15 @@ body {
 }
 /* navbar end */
 /* package start */
+.packagesHeading{
+  padding: 20px;
+}
 .mCarausel{
   height: 200px;
   background-color: white;
   border: 2px solid black;
   margin: 10px;
-  margin-right: 20px;
+
   border-radius: 30px;
 }
 .mHeading{
@@ -102,6 +107,9 @@ body {
 /* Package end */
 /* phones */
 @media only screen and (max-width: 600px) {
+  .navbar{
+    width: 100%;
+  }
   .logo-img {
     width: 40px;
     height: 40px;
@@ -122,6 +130,7 @@ body {
 
   .infoClass {
     display: inline-block;
+    width: 100vw;
   }
   .card {
     margin-bottom: 20px;
@@ -130,6 +139,10 @@ body {
 
 /* desktops */
 @media only screen and (min-width: 600px) {
+  .navbar{
+    width: 100vw;
+    background-color: blue;
+  }
   .logo-img {
     margin-right: 20px;
   }
@@ -141,11 +154,10 @@ body {
   .infoClass {
     display: flex;
     gap: 20px;
-    margin: auto;
-    width: 1100px;
+    
+    width: 85vw;
   }
-  .h1 {
-  }
+  
 }
 
 .infoClass {
@@ -154,13 +166,15 @@ body {
 .card {
   background-color: #6cc8c3;
   border: 2px solid black;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 30px;
+
+  padding: 20px;
 }
 .diseasesHeading {
   padding-top: 20px;
+
   font-family: "Assistant", sans-serif;
-  text-align: center;
+  margin-left: 10vw;
 }
 /* footer */
 
@@ -231,8 +245,8 @@ button:focus {
   font-size: 24px;
 }
 .f_social_icon a {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 
   color: #858da8;
@@ -244,17 +258,21 @@ button:focus {
   transition: all 0.2s linear;
 }
 .icon_all {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   object-fit: contain;
   filter: grayscale(100%);
+  padding:5px;
 }
 .icon_all:hover {
   filter: grayscale(0%);
   filter: brightness(110%);
   padding: 2px;
   border-radius: 2px solid #6cc8c3;
+}
+.icon{
+  margin-right: 10px;
 }
 .linkedin:hover {
   box-shadow: 0px 0px 80px blue;

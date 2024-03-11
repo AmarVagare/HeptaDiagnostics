@@ -9,10 +9,12 @@ export default function Package() {
       
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
+      slidesToSlide: 3.
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
+      slidesToSlide: 2.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -26,7 +28,7 @@ export default function Package() {
   return (
     <>
       <div className="container">
-        <h1>Our best packages </h1>
+        <h1 className="packagesHeading">Our best packages </h1>
         <Carousel responsive={responsive}>
           <div className="mCarausel"> 
             <p className="mHeading">complete Package - Wellness</p>

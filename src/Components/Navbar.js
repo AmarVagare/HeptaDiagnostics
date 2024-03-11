@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="navMain">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
           <a className="linkImg" href="#">

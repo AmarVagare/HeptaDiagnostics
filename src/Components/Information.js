@@ -1,9 +1,11 @@
 import React from "react";
+import "./style.css";
 
 export default function Information() {
   return (
     <>
-      <h1 className="diseasesHeading ">About Diseases and symptoms</h1>
+    <div className="container">
+      <h1 className=" ">About Diseases and symptoms</h1>
       <div className="infoClass">
         <div className="card card1">
           <h3>this is heading</h3>
@@ -31,6 +33,7 @@ export default function Information() {
           </p>
         </div>
       </div>
-    </>
+      </div>
+          </>
   );
 }

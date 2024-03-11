@@ -83,7 +83,7 @@ export default function Footer() {
                     Social Media
                   </h3>
                   <div className="f_social_icon">
-                    <a href="#" className="insta">
+                    <a href="#" className="insta icon">
                       <img
                         className="icon_all"
                         src={require("./Images/insta.jpg")}
@@ -91,21 +91,21 @@ export default function Footer() {
                       />
                     </a>
 
-                    <a href="#" className="twitter">
+                    <a href="#" className="twitter icon">
                       <img
                         className="icon_all"
                         src={require("./Images/twitter.jpg")}
                         alt="Twitter"
                       />
                     </a>
-                    <a href="#" className="linkedin">
+                    <a href="#" className="linkedin icon">
                       <img
                         className="icon_all"
                         src={require("./Images/linkedin.png")}
                         alt="Linkedin"
                       />
                     </a>
-                    <a href="#" className="insta">
+                    <a href="#" className="insta icon">
                       <img
                         className="icon_all"
                         src={require("./Images/yt.jpg")}
